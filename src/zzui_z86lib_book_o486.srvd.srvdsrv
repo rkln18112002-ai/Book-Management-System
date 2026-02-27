@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZZC_86LIB_BOOK86'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZZC_86LIB_BOOK86'
+  }
+}
+define service ZZUI_Z86LIB_BOOK_O486 provider contracts odata_v4_ui {
+  expose ZZC_86LIB_BOOK86;
+}
